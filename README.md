@@ -1,6 +1,8 @@
 # DocuMind AI
 
-AI-powered GitHub documentation generator that converts repositories into professional technical documentation instantly.
+AI-powered GitHub Documentation Generator that transforms GitHub repositories into professional technical documentation instantly using OpenRouter AI.
+
+Built for developers, teams, students, and hackathons to automate project documentation workflows efficiently.
 
 ---
 
@@ -16,6 +18,8 @@ AI-powered GitHub documentation generator that converts repositories into profes
 - GitHub API Integration
 - OpenRouter AI Integration
 - Repository Preview System
+- Live Repository Insights
+- Multi-format Documentation Download
 
 ---
 
@@ -27,13 +31,30 @@ AI-powered GitHub documentation generator that converts repositories into profes
 - Axios
 - React Markdown
 - jsPDF
-- html2canvas
 
 ## Backend
 - Node.js
 - Express.js
 - OpenRouter API
 - GitHub REST API
+
+---
+
+# Live Demo
+
+## Frontend
+https://document-ai-six.vercel.app/
+
+## Backend
+https://document-ai-backend-s6ee.onrender.com
+
+---
+
+# Architecture
+
+User → React Frontend → Express Backend → OpenRouter AI → Generated Documentation
+
+GitHub Repository → GitHub API → Repository Analysis → AI Processing
 
 ---
 
@@ -69,10 +90,10 @@ npm start
 
 # Environment Variables
 
-Create `.env` file inside `server` folder.
+Create `.env` file inside the `server` folder.
 
 ```env
-OPENROUTER_API_KEY=your_api_key
+OPENROUTER_API_KEY=your_openrouter_api_key
 ```
 
 ---
@@ -80,10 +101,10 @@ OPENROUTER_API_KEY=your_api_key
 # How It Works
 
 1. User pastes GitHub repository URL
-2. GitHub API fetches repository details
-3. Backend analyzes repository
-4. OpenRouter AI generates technical documentation
-5. User can export:
+2. GitHub API fetches repository information
+3. Backend analyzes repository metadata
+4. OpenRouter AI generates professional technical documentation
+5. User downloads documentation in multiple formats:
    - PDF
    - DOCX
    - Markdown
@@ -118,12 +139,54 @@ OPENROUTER_API_KEY=your_api_key
 
 # Future Improvements
 
-- Authentication
+- Authentication System
 - Documentation History
 - Multi-language Support
 - Architecture Diagram Generator
 - AI Code Review
 - README Quality Analyzer
+- Team Collaboration Features
+- Cloud Storage Integration
+
+---
+
+# Deployment
+
+## Frontend Deployment
+- Vercel
+
+## Backend Deployment
+- Render
+
+---
+
+# API Flow
+
+GitHub Repository URL  
+↓  
+GitHub API Analysis  
+↓  
+Backend Processing  
+↓  
+OpenRouter AI Documentation Generation  
+↓  
+Export to PDF / DOCX / Markdown
+
+---
+
+# Contribution Guide
+
+1. Fork the repository
+2. Create a new feature branch
+3. Commit your changes
+4. Push to your branch
+5. Open a Pull Request
+
+---
+
+# License
+
+This project is licensed under the MIT License.
 
 ---
 
