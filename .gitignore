@@ -1,0 +1,32 @@
+# dependencies
+node_modules
+
+# logs
+logs
+*.log
+npm-debug.log*
+
+# environment variables
+.env
+
+# build files
+dist
+build
+
+# Vite cache
+.vite
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# editor files
+.vscode
+.idea
+
+# coverage
+coverage
+
+# temporary files
+tmp
+temp
