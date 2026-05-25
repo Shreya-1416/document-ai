@@ -192,4 +192,4 @@ This project is licensed under the MIT License.
 
 # Author
 
-Developed by Shreya Gupta
+Developed by Shreya Gupta and Shivam Rajpoot
