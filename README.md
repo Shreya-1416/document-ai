@@ -63,7 +63,7 @@ GitHub Repository → GitHub API → Repository Analysis → AI Processing
 ## Clone Repository
 
 ```bash
-git clone YOUR_REPOSITORY_LINK
+https://github.com/Shreya-1416/document-ai
 ```
 
 ---
