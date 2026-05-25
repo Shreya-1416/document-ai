@@ -137,6 +137,12 @@ OPENROUTER_API_KEY=your_openrouter_api_key
 
 ---
 
+## PDF View
+
+![PDF View](./screenshots/pdflook.png)
+
+---
+
 # Future Improvements
 
 - Authentication System
