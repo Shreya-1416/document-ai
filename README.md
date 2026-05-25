@@ -94,7 +94,7 @@ OPENROUTER_API_KEY=your_api_key
 
 ## Home Page
 
-![Home Page](./screenshots/HomePage.png)
+![Home Page](./screenshots/Homepage.png)
 
 ---
 
