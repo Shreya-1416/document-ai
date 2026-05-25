@@ -92,7 +92,27 @@ OPENROUTER_API_KEY=your_api_key
 
 # Screenshots
 
-Add screenshots here.
+## Home Page
+
+![Home Page](./screenshots/HomePage.png)
+
+---
+
+## Documentation Generation
+
+![Documentation](./screenshots/DocGeneration.png)
+
+---
+
+## PDF Export
+
+![PDF Export](./screenshots/pdfexport.png)
+
+---
+
+## Repository Analysis
+
+![Repository Analysis](./screenshots/Repoanalysis.png)
 
 ---
 

@@ -16,6 +16,10 @@ app.use("/api/ai", aiRoutes);
 
 const PORT = 5000;
 
+app.get("/", (req, res) => {
+  res.send("Document AI Backend Running Successfully");
+});
+
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
