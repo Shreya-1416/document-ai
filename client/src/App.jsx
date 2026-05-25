@@ -67,7 +67,7 @@ function App() {
       const response =
         await axios.post(
 
-          "https://document-ai-backend-s6ee.onrender.com",
+          "https://document-ai-backend-s6ee.onrender.com/api/ai/generate-docs",
 
           {
             repoUrl,
