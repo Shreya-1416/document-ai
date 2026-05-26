@@ -43,7 +43,11 @@ Built for developers, teams, students, and hackathons to automate project docume
 # Live Demo
 
 ## Frontend
+<<<<<<< HEAD
 https://YOUR-VERCEL-LINK.vercel.app
+=======
+https://document-ai-six.vercel.app/
+>>>>>>> a623f778c675c334463e786ab02ee43accc2a9e3
 
 ## Backend
 https://document-ai-backend-s6ee.onrender.com
@@ -137,6 +141,12 @@ OPENROUTER_API_KEY=your_openrouter_api_key
 
 ---
 
+## PDF View
+
+![PDF View](./screenshots/pdflook.png)
+
+---
+
 # Future Improvements
 
 - Authentication System
@@ -192,4 +202,4 @@ This project is licensed under the MIT License.
 
 # Author
 
-Developed by Shreya Gupta
+Developed by Shreya Gupta and Shivam Rajpoot
